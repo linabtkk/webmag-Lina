@@ -1,0 +1,86 @@
+{
+    "journal": {
+      "nomJournal": "Maroc Insider",
+      "phraseAccroche": "Votre source d'informations sur le Maroc",
+      "texteAppelAction": "Inscrivez-vous pour recevoir notre newsletter et rester informé sur les dernières actualités, événements et culture du Maroc !",
+      "articlePrincipal": {
+        "titre": "Les dernières nouvelles du Maroc : actualités, culture et société",
+        "description": "Restez au courant des événements, des développements économiques, politiques et culturels ainsi que des dernières tendances au Maroc.",
+        "date": "25 Avril 2024",
+        "theme": "Actualités Maroc",
+        "image":""
+      },
+      "articles": [
+        {
+          "titre": "Entretien avec un artiste marocain : son parcours, son inspiration et son impact sur la scène artistique",
+          "date": "20 Avril 2024",
+          "theme": "Art et Culture",
+          "image":""
+        },
+        {
+          "titre": "Tourisme au Maroc : les endroits incontournables à visiter et les expériences à ne pas manquer",
+          "date": "15 Avril 2024",
+          "theme": "Tourisme",
+          "image":""
+        },
+        {
+          "titre": "Économie marocaine : analyse des dernières tendances et des défis économiques",
+          "date": "5 Avril 2024",
+          "theme": "Économie",
+          "image":""
+        },
+        {
+          "titre": "Politique marocaine : les dernières évolutions politiques et les enjeux nationaux",
+          "date": "28 Mars 2024",
+          "theme": "Politique",
+          "image":""
+        },
+        {
+          "titre": "Cuisine marocaine : recettes traditionnelles, restaurants à découvrir et tendances culinaires",
+          "date": "20 Mars 2024",
+          "theme": "Gastronomie",
+          "image":""
+        }
+      ],
+      "themes": [
+        {
+          "nom": "Art et Culture",
+          "description": "Découvrez l'art, la musique, la littérature et la culture marocaine à travers des entretiens avec des artistes, des critiques et des reportages sur les événements culturels."
+        },
+        {
+          "nom": "Tourisme",
+          "description": "Guides de voyage, recommandations d'itinéraires, informations sur les attractions et les festivals pour les voyageurs intéressés par le Maroc."
+        },
+        {
+          "nom": "Économie",
+          "description": "Analyses, reportages et interviews sur l'économie marocaine, y compris les investissements, les secteurs clés et les défis économiques."
+        },
+        {
+          "nom": "Politique",
+          "description": "Actualités politiques, analyses et commentaires sur les développements politiques au Maroc, ainsi que sur les enjeux nationaux et internationaux."
+        },
+        {
+          "nom": "Gastronomie",
+          "description": "Recettes traditionnelles, critiques de restaurants, interviews de chefs et tendances culinaires du Maroc."
+        }
+      ],
+      "auteurs": [
+        {
+          "prenom": "Fatima",
+          "typeExperience": "Journaliste culturelle",
+          "presentation": "Passionnée par la richesse culturelle du Maroc, je partage des reportages et des entretiens approfondis sur l'art, la musique et la littérature marocains."
+        },
+        {
+          "prenom": "Khalid",
+          "typeExperience": "Expert en tourisme",
+          "presentation": "Avec une expertise dans le tourisme marocain, je vous guide à travers les destinations incontournables, les expériences uniques et les festivals à ne pas manquer."
+        },
+        {
+          "prenom": "Nadia",
+          "typeExperience": "Analyste économique",
+          "presentation": "En tant qu'analyste économique, je décrypte les tendances économiques du Maroc, les opportunités d'investissement et les défis auxquels fait face le pays."
+        }
+      ]
+    }
+  }
+  
