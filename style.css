@@ -1,40 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body{
+
+body {
     margin: 0;
-    font-family: "poppins", sans-serif;
+    font-family: "Poppins", sans-serif; /* "Poppins" en minuscules */
 }
-h1{
+
+h1 {
     display: flex;
     justify-content: center;
     margin: 15px;
 }
-.articles-image{
+
+.articles-image {
     width: 600px;
     height: 400px;
     object-fit: cover;
     border-radius: 5%;
 }
-.avatar{
+
+.avatar {
     width: 75px;
     height: 75px;
     object-fit: cover;
     border-radius: 100%;
 }
-#avatar{
+
+#avatar {
     display: flex;
     flex-direction: row;
     gap: 18px;
     align-items: center;
 }
-.navigation{
+
+.navigation {
     display: flex;
     justify-content: space-between;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding: 16px; /* Combinaison de padding */
 }
-ul{
+
+ul {
     display: flex;
     list-style: none;
     align-items: center;
@@ -44,7 +48,8 @@ ul{
     margin: 0;
     color: black;
 }
-ul.ul-articles{
+
+ul.ul-articles {
     display: flex;
     list-style: none;
     gap: 40px;
@@ -55,15 +60,18 @@ ul.ul-articles{
     justify-content: center;
     align-items: flex-start;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
 }
-.hero-header{
+
+.hero-header {
     padding-bottom: 16px;
     position: relative;
 }
-.background-hero{
+
+.background-hero {
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -74,27 +82,29 @@ ul.ul-articles{
     display: block;
     object-fit: cover;
 }
-.hero-content{
+
+.hero-content {
     position: absolute;
-    bottom:  50%;
+    bottom: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 1;
     color: white;
- }
- .overlay {
+}
+
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
- }
- .button-plus{
+}
+
+.button-plus {
     border-radius: 4px;
     text-decoration: none;
-    padding: 8px;
     background: white;
     border: 2px solid white;
     justify-content: center;
@@ -104,20 +114,21 @@ ul.ul-articles{
     display: flex;
     align-items: center;
     color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
+    padding: 10px 20px; /* Combinaison de padding */
     cursor: pointer;
     transition: background-color 0.5s ease;
- }
- .button-plus:hover{
+}
+
+.button-plus:hover {
     background-color: #0B709F;
     color: white;
- }
- .suscribe-button{
+}
+
+.subscribe-button {
+    /* Correction de la classe */
     border-radius: 4px;
     text-decoration: none;
-    padding: 8px;
+    padding: 8px; /* Correction de la propriété */
     background: #0B709F;
     border: 2px solid #0B709F;
     justify-content: center;
@@ -125,39 +136,48 @@ ul.ul-articles{
     width: 240px;
     height: auto;
     display: flex;
-    align-items: center
- }
- a{
+    align-items: center;
+}
+
+a {
     text-decoration: none;
     color: black;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
- }
- a:hover{
+}
+
+a:hover {
     color: white;
- }
- #blue a {
+}
+
+#blue a {
     color: black;
     transition: color 0.3s ease;
 }
+
 #blue a:hover {
     color: #0B709F;
 }
- h2{
+
+h2 {
     font-weight: bold;
     margin: 0;
- }
- h4{
+}
+
+h4 {
     margin: 0;
- }
- .articles {
+}
+
+.articles {
     display: flex;
     align-items: center;
     padding: 35px;
 }
+
 .texte-articles {
     padding-left: 10px;
 }
+
 .image-zoom {
     width: 150px;
     height: 150px;
@@ -165,52 +185,61 @@ ul.ul-articles{
     object-fit: cover;
     padding: 20px;
     transition: transform 0.3s ease;
-  }
-  .image-zoom:hover {
+}
+
+.image-zoom:hover {
     transform: scale(1.2);
-  }
-.prenom{
+}
+
+.prenom {
     display: flex;
     flex-direction: column;
     width: 300px;
     align-items: center;
     text-align: center;
 }
-#prenom{
+
+#prenom {
     display: flex;
     flex-direction: row;
     gap: 16px;
     justify-content: space-around;
     padding: 10px;
 }
-.themes{
+
+.themes {
     display: flex;
     flex-direction: column;
     width: 300px;
     align-items: center;
     text-align: center;
 }
-#themes{
+
+#themes {
     display: flex;
     flex-direction: row;
     gap: 16px;
     justify-content: space-around;
 }
-.back-themes{
+
+.back-themes {
     background-color: black;
     color: white;
     padding: 10px;
 }
-footer{
+
+footer {
     background-color: black;
     color: white;
     padding: 25px;
-    text-align: center
+    text-align: center;
 }
-main{
+
+main {
     padding: 10px;
 }
-.button-lire{
+
+.button-lire {
     border-radius: 4px;
     text-decoration: none;
     padding: 8px;
@@ -221,9 +250,10 @@ main{
     width: 100px;
     height: auto;
     display: flex;
-    align-items: center
+    align-items: center; /* Ajout d'un point-virgule */
     transition: transform 0.9s ease;
 }
-.button-lire:hover{
+
+.button-lire:hover {
     transform: scale(1.2);
 }
